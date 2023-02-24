@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'authenticationauthenticatioApp',
+    'authApp',
     'oauth2_provider',
     'rest_framework',
 ]
@@ -127,5 +127,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL='authenticationauthenticationApp.User'
+AUTH_USER_MODEL='authApp.User'
+LOGIN_URL='/admin/login/'
 

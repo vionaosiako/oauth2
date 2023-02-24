@@ -20,5 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('',include(authenticationauthenticatioApp.urls),name='auth'),
     # path('', include('oauth2_provider.urls', namespace='oauth2_provider')),
+    path('', include('oauth2_provider.urls', namespace='oauth2_provider')),
+
 
 ]
